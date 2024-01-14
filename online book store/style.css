@@ -1,0 +1,118 @@
+nav {
+    margin-top: -20px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   }
+ a{
+    list-style: none;
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+}
+.home1{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+.home2 button{
+    padding: 10px;
+    background-color: black;
+    color: red;
+    border-radius: 100vmax;
+    cursor: pointer;
+}
+.info{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    gap: -20px;
+    opacity: 0;
+}
+.info .info1{
+
+width: 60%;
+text-align: center;
+}
+.info .info2 img{
+     width: 60%;
+     border: 2px dotted black;
+     height: 200px;
+}
+.add{
+   opacity: 1;
+}
+.cat{
+   margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.book{
+ height: 300px;
+ width: 250px;
+ border: 2px solid black;
+ text-align: center;
+ background-color: aqua;
+ 
+}
+.book img{
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+}
+.book button{
+ cursor: pointer;
+}
+.book button:hover{
+    background-color: red;
+    color: yellow;
+}
+form{
+    height: 250px;
+    width: 230px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 30px auto;
+}
+form .n1{
+  padding-top: 20px;
+}
+form button{
+    padding: 8px;
+    color:green;
+    background-color: yellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+form{
+    background-color: aquamarine;
+}
+.f1{
+    background-color: azure;
+}
+.f1 input{
+    margin-top: 10px;
+}
+.r1{
+    height: 30px;
+    width: 70px;
+    border-radius: 100vmax;
+    cursor: pointer;
+    background: green;
+}

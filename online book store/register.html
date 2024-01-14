@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>REGISTER PAGE</h3>
+    <nav>
+    <a href="./index.html">Home</a>
+    <a href="./catagory.html">Catageory</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+    </nav>
+    <div class="home1"> REGISTRATION</div>
+
+    <form class="f1" onsubmit="my()">
+<label>Name: </label>
+<br/>
+<input type="text" placeholder="enter name" class="t1">
+<br/>
+<label>Email : </label>
+<br/>
+<input type="email" placeholder="enter email" class="t2">
+<label>Password: </label>
+<br/>
+<input type="password" placeholder="enter password" class="t3">
+<br/>
+<br/>
+<input type="submit" value="Register" class="r1">
+</form>
+<script>
+    function my(){
+    var x,y,z;
+    x=document.querySelector(".t1");
+    y=document.querySelector(".t2");
+    z=document.querySelector(".t3");
+    document.write("Name is:  " +x.value+'<br/>');
+    document.write("Email is: "+y.value+'<br/>');
+    document.write("Password is: "+z.value+'<br/>');
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>HOME PAGE </h3>
+    <nav>
+     <a href="./index.html">Home</a>
+    <a href="./catagory.html">Catageory</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+    </nav>
+<div class="home1"> HOME PAGE</div>
+
+<div class="home2">
+    <h4>Click here for author information</h4>
+    <button onclick="myfun()">click</button>
+</div>
+
+<div class="info">
+<div class="info1">
+    <h4>NAME: DIPTO GHOSH</h4>
+    <h4>INS:CSE,IU</h4>
+    <h5>ADD:KUSTIA,IU</h5>
+</div>
+<div class="info2">
+<img src="./images/1 (2).jpg">
+</div>
+
+</div>
+<script>
+    var m=document.querySelector(".info");
+
+   function myfun(){
+        m.classList.add("add");
+     }
+</script>
+</body>
+</html>

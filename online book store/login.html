@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>LOGIN PAGE</h3>
+    <nav>
+    <a href="./index.html">Home</a>
+    <a href="./catagory.html">Catageory</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+    </nav>
+    <div class="home1"> LOGIN PAGE</div>
+    <form>
+        <div class="n1">
+        <label>USER NAME: </label>
+        <br/>
+       
+        <input type="email" placeholder="enter username"/>
+        <br/>
+
+        <label>PASSWORD:</label> 
+        <br/>
+       
+        <input type="password" class="pass1" placeholder="enter password"/>
+        <br/>
+        <label>CONIRM PASSWORD:</label> 
+        <br/>
+       
+        <input type="password" class="pass2" placeholder="enter confirm password"/></div>
+        <br/>
+        <br/>
+        
+        <button onclick ="login()" >login</button>
+    </form>
+    <script>
+        
+            var x=document.querySelector(".show");
+       function login(){
+        var m=document.querySelector(".pass1").value;
+            var n=document.querySelector(".pass2").value;
+            if(m === "" || n === ""){
+    alert("Filled can't be empty")
+
+ }
+ else if(m !== n){
+   alert("NOt match!")
+ }
+ else{
+ 
+    alert("Registration succesful");
+
+ }
+
+
+        }
+    </script>
+</body>
+</html>
